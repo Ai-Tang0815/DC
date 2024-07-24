@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord 機器人指令展示</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .commands {
+      margin-top: 30px;
+    }
+    .commands h2 {
+      color: #333;
+      margin-top: 20px;
+    }
+    .commands ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .commands ul li {
+      background-color: #f4f4f4;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .commands ul li code {
+      background-color: #e4e4e4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Discord 機器人指令展示</h1>
+
+    <div class="commands">
+      <h2>指令分區</h2>
+      <div>
+        <h3>功能用指令</h3>
+        <ul>
+          <li><code>a!help_uses</code> - 打開功能用指令列表</li>
+          <li><code>a!ping</code> - 計算機器人的延遲時間</li>
+          <li><code>a!guildinfo</code> - 顯示伺服器的資訊</li>
+          <li><code>a!userinfo &lt;成員&gt;</code> - 顯示指定成員的資訊，若未指定則顯示發送者的資訊</li>
+          <li><code>a!avatar &lt;成員&gt;</code> - 顯示指定成員的頭像，若未指定則顯示發送者的頭像</li>
+          <li><code>a!embed &lt;標題&gt; &lt;描述&gt;</code> - 發送一個嵌入訊息</li>
+          <li><code>a!math &lt;數學表達式&gt;</code> - 計算數學表達式的結果</li>
+          <li><code>a!luck</code> - 顯示今天的運勢</li>
+          <li><code>a!pw &lt;長度&gt;</code> - 生成指定長度的隨機密碼，長度至少為 8 個字符</li>
+          <li><code>a!eat</code> - 隨機推薦午餐或晚餐</li>
+          <li><code>a!weather &lt;城市&gt;</code> - 顯示指定城市的天氣資訊</li>
+          <li><code>a!emoji &lt;表情&gt;</code> - 顯示指定表情的原圖 URL</li>
+          <li><code>a!rate &lt;基礎貨幣&gt; &lt;目標貨幣&gt;</code> - 查詢基礎貨幣到目標貨幣的匯率</li>
+          <li><code>a!tran &lt;目標語言&gt; &lt;文本&gt;</code> - 將文本翻譯為指定語言</li>
+          <li><code>a!iom &lt;詞語/成語&gt;</code> - 查詢詞語/成語的解析</li>
+          <li><code>a!color &lt;顏色名稱&gt;</code> - 查詢顏色的 HEX 和 RGB 信息</li>
+          <li><code>a!qr &lt;內容&gt;</code> - 生成包含指定內容的 QR Code</li>
+          <li><code>a!url &lt;網址&gt;</code> - 生成短網址</li>
+          <li><code>a!unrl &lt;短網址&gt;</code> - 還原短網址</li>
+        </ul>
+      </div>
+      <div>
+        <h3>管理用指令</h3>
+        <ul>
+          <li><code>a!help_mods</code> - 打開管理用指令列表</li>
+        </ul>
+      </div>
+      <div>
+        <h3>娛樂用指令</h3>
+        <ul>
+          <li><code>a!help_games</code> - 打開娛樂用指令列表</li>
+        </ul>
+      </div>
+      <div>
+        <h3>YouTube 用指令</h3>
+        <ul>
+          <li><code>❌測試中~❌</code></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
